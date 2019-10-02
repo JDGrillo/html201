@@ -1,0 +1,25 @@
+.logo-text {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.navigation-links {
+    color: grey;
+    font-size: 2rem;
+    display: inline-block;
+    float: right;
+    position: fixed;
+}
+
+.navigation-links span {
+    margin-top: 1rem;
+    padding: 1rem;
+    position: fixed;
+}
+
+.main {
+    clear: both;
+    margin: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
