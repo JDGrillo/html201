@@ -3,18 +3,19 @@
     display: inline-block;
 }
 
+header {
+    margin-top: 1rem;
+}
+
 .navigation-links {
     color: grey;
     font-size: 2rem;
-    display: inline-block;
+    margin-top: .5rem;
     float: right;
-    position: fixed;
 }
 
 .navigation-links span {
-    margin-top: 1rem;
     padding: 1rem;
-    position: fixed;
 }
 
 .main {
@@ -22,4 +23,30 @@
     margin: 5rem;
     font-size: 3rem;
     text-align: center;
+}
+
+body {
+    background-color: #fff;
+}
+
+.date {
+    color: grey;
+    text-align: center;
+    margin: .5rem 0
+}
+
+.follow-button {
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: #3399ff;
+    padding: .3rem 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.body-text {
+    width: 75%;
+    margin-left: 15%;
+    margin-right: auto;
 }
